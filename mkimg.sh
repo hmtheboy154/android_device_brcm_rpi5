@@ -6,7 +6,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-VERSION=RaspberryVanillaAOSP14
+VERSION=LMODroid5
 DATE=$(date +%Y%m%d)
 IMGNAME=${VERSION}-${DATE}-rpi5.img
 IMGSIZE=7
@@ -28,7 +28,7 @@ echo n
 echo p
 echo 2
 echo
-echo +2048M
+echo +2300M
 echo n
 echo p
 echo 3
